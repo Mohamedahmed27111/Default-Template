@@ -145,7 +145,6 @@ onMounted(() => {
 
         if ($targetEl) {
             const dropdown = new flowbite.Dropdown($targetEl, $triggerEl, options);
-            dropdown.show();  // Automatically show the dropdown menu
         }
     });
 });
